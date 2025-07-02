@@ -4,10 +4,10 @@ import './ProfileCard.css';
 
 const ProfileCard = ({ name, image, bio }) => {
   return (
-    <div className="profile-card">
-      <img src={image} alt={name} className="profile-image" />
+    <div className="card">
+      <img src={image} alt={name} className="profile-img" />
       <h2>{name}</h2>
-      <p className="bio">{bio}</p>
+      <p>{bio}</p>
     </div>
   );
 };
